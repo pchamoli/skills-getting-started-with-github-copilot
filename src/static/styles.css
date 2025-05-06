@@ -37,7 +37,9 @@ main {
 
 @media (min-width: 768px) {
   main {
-    grid-template-columns: 2fr 1fr;
+    display: grid; /* Fix: Ensure grid layout is applied */
+    grid-template-columns: 2fr 1fr; /* Fix: Define grid columns */
+    gap: 30px; /* Maintain spacing between sections */
   }
 }
 
